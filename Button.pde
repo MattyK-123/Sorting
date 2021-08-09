@@ -1,4 +1,4 @@
-class Button {
+public class Button {
   String label;
   float x;
   float y;
@@ -17,6 +17,7 @@ class Button {
   }
   
   void draw() {
+    rectMode(CORNER);
     if (!enabled)
       fill(218);
     else if (mouseOver())

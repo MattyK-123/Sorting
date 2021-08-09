@@ -1,6 +1,9 @@
 // Imports.
 import javax.swing.JOptionPane;
 
+// Declaring bar manager.
+Bars bars;
+
 // Declaring buttons.
 Button btnSelectionSort;
 Button btnBubbleSort;
@@ -18,6 +21,8 @@ void setup(){
   // Setting window image.
   PImage icon = loadImage("Assets/sort.png");
   surface.setIcon(icon);
+  
+  bars = new Bars(100);
   
   btnSelectionSort = new Button("Selection Sort", 1020, 20, 160, 20);
   btnBubbleSort =    new Button("Bubble Sort", 1020, 60, 160, 20);
@@ -46,5 +51,6 @@ void draw(){
   btnAbout.draw();
   btnExit.draw();
   
-
+  // Drawing bars.
+  bars.draw();
 }
