@@ -23,4 +23,4 @@ This project is licensed under the GNU General Public License License - see the 
 ## Acknowledgments
 
 * [Awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [Quick Sort in 4 Minutes] (https://www.youtube.com/watch?v=Hoixgm4-P4M&t=155s)
+* [Quick-Sort-in-4-Minutes](https://www.youtube.com/watch?v=Hoixgm4-P4M&t=155s)
