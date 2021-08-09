@@ -4,7 +4,7 @@
 	</a>
 </p>
 
-# Pathfinding
+# Sorting
 
 This application seeks to demonstrate some of the most popular sorting algorithms by means of a simple bar-sorting graphical user interface.
 
